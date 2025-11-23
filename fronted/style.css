@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    background: #ffe6f2;
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #cc0066;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #ffffff;
+}
+
+th, td {
+    border: 1px solid #ffb3d9;
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 8px;
+    border: none;
+    background: #ff80bf;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select, input {
+    padding: 5px;
+    border: 1px solid #ff99cc;
+    border-radius: 4px;
+}
