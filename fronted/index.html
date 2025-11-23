@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Asistencia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Sistema de Asistencia</h2>
+
+<label>Curso:</label>
+<select id="curso">
+    <option value="1">4º3</option>
+    <option value="2">4º4</option>
+</select>
+
+<label>Materia:</label>
+<select id="materia">
+    <option value="1">Proyecto</option>
+    <option value="2">Base de Datos</option>
+</select>
+
+<label>Fecha:</label>
+<input type="date" id="fecha">
+
+<h3>Alumnos</h3>
+<table id="tablaAlumnos">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Apellido</th>
+            <th>Nombre</th>
+            <th>Marcar</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<h3>Registro del día</h3>
+<table id="tablaRegistro">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Apellido</th>
+            <th>Nombre</th>
+            <th>Estado</th>
+            <th>Ingreso</th>
+            <th>Egreso</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="app.js"></script>
+</body>
+</html>
