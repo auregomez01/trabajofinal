@@ -1,0 +1,13 @@
+USE asistencia;
+
+INSERT INTO alumnos (apellido, nombre, curso) VALUES
+('Acosta', 'Santiago', '4_4'),
+('Bravo', 'Milagros', '4_4'),
+('Cabrera', 'Lucas', '4_4'),
+('Dominguez', 'Zoe', '4_4'),
+('Espinosa', 'Mateo', '4_4'),
+('Flores', 'Morena', '4_4'),
+('Gimenez', 'Bautista', '4_4'),
+('Ledesma', 'Rocio', '4_4'),
+('Molina', 'Lautaro', '4_4'),
+('Sánchez', 'Alma', '4_4');
